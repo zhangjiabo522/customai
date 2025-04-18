@@ -35,10 +35,10 @@
 ## 配置文件 / Configuration Files
 - `ai.json`  
   AI模型配置 / AI models configuration  
-  *存储所有可用AI模型的参数 / Stores parameters for all available AI models*
+  *存储所有可用AI模型的调用次数 / Stores parameters for all available AI models*
 
 - `mm.json`  
-  模型映射配置 / Model mapping  
+  密码配置 / Model mapping  
   *定义模型名称与实际服务的映射关系 / Defines mapping between model names and actual services*
 
 - `config.json`  
