@@ -1,0 +1,9 @@
+{
+    "gzs": "zjb522",
+    "ainame": "zjbai",
+    "name": "zjb",
+    "model": "Qwen\/QwQ-32B",
+    "model_display": "JiBoAI\/V3-32B-NSFW-\u03b2",
+    "object": "zjb522.sbs",
+    "apikey": "sk-unfnqioiwiygoaahfcafjpanqbpwmmkfsjivzrfakuujznxg"
+}
