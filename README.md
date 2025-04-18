@@ -8,19 +8,6 @@
 
 ---
 
-### 文件结构 / File Structure
-
-customAI/
-├── admin.php            # 管理员操作页面 Admin Panel
-├── ai.json              # AI 模型配置 JSON 文件 AI Models Configuration
-├── api.php              # 接口调用文件 API Handler
-├── config.json          # 当前使用的配置 Current Configuration
-├── get_config.php       # 获取配置接口 Get Configuration API
-├── index.php            # 首页入口页面 Main Entry Page
-├── login.php            # 登录页面 Login Page
-├── mm.json              # 模型映射配置 Model Mapping
-├── save_config.php      # 保存配置接口 Save Configuration API
-
 
 ---
 
@@ -30,7 +17,50 @@ customAI/
 
 ## 密码 / Password: JiBoAI@2025
 
+# 文件结构 / File Structure
 
+## 核心文件 / Core Files
+- `index.php`  
+  首页入口页面 / Main entry page  
+  *用户访问的默认页面 / Default page for user access*
+
+- `login.php`  
+  登录页面 / Login page  
+  *管理员认证入口 / Administrator authentication portal*
+
+- `admin.php`  
+  管理员操作面板 / Admin panel  
+  *系统配置和管理界面 / System configuration and management interface*
+
+## 配置文件 / Configuration Files
+- `ai.json`  
+  AI模型配置 / AI models configuration  
+  *存储所有可用AI模型的参数 / Stores parameters for all available AI models*
+
+- `mm.json`  
+  模型映射配置 / Model mapping  
+  *定义模型名称与实际服务的映射关系 / Defines mapping between model names and actual services*
+
+- `config.json`  
+  当前使用配置 / Current configuration  
+  *系统运行时加载的激活配置 / Active configuration loaded during runtime*
+
+## API接口 / API Endpoints
+- `api.php`  
+  主接口处理器 / Main API handler  
+  *处理所有AI功能请求 / Processes all AI function requests*
+
+- `get_config.php`  
+  获取配置接口 / Get configuration API  
+  *读取当前系统设置 / Retrieves current system settings*
+
+- `save_config.php`  
+  保存配置接口 / Save configuration API  
+  *更新系统配置参数 / Updates system configuration parameters*
+
+## 目录说明 / Directory Notes
+所有文件位于`customAI/`根目录下，无子文件夹结构。  
+All files are located in the `customAI/` root directory with no subfolder structure.
 
 ---
 
